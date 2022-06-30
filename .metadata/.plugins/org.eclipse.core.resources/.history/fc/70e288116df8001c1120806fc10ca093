@@ -1,0 +1,16 @@
+package test;
+
+import static org.testng.AssertJUnit.assertEquales;
+import org.testng.annotations.Test;
+
+public class CalculaterTest {
+	@Test
+	public void addTest() {
+		int a=7;
+		int b=10;
+		int express=17;
+		int actres=Calculator.add(a,b);
+		assertEquales(actres,expres);
+	}
+
+}
